@@ -1,0 +1,83 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/panyakarn/Desktop/defi/contracts/LiquidationOperator.sol": {
+      "lastModificationDate": 1680670163986,
+      "contentHash": "b63d311d49cc0cfd7fc90d6b9379e7ba",
+      "sourceName": "contracts/LiquidationOperator.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "IERC20",
+        "ILendingPool",
+        "IUniswapV2Callee",
+        "IUniswapV2Factory",
+        "IUniswapV2Pair",
+        "IWETH",
+        "LiquidationOperator"
+      ]
+    },
+    "/Users/panyakarn/Desktop/defi/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1680670264588,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    }
+  }
+}
